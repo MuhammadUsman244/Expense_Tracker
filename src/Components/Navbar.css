@@ -1,0 +1,10 @@
+.navbarHeading h1{
+    width:fit-content;
+    margin:0px auto;
+    font-size:2.2rem;
+    color:white;
+    padding:8px 0px;
+}
+.navbarHeading{
+    background:linear-gradient(to right,rgb(31, 22, 41),rgb(47, 24, 43));
+}

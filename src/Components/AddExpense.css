@@ -1,0 +1,23 @@
+label,input{
+    margin:6px 0px;
+    vertical-align:middle;
+    
+}
+label{
+    font-size:19px;
+}
+.form{
+    padding:20px;
+}
+input{
+    padding:8px;
+    margin-left:8px;
+}
+select{
+    margin:6px 8px;
+    padding:8px;
+}
+button{
+    padding:8px;
+    margin:10px 0px;
+}
