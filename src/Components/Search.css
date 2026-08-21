@@ -1,0 +1,35 @@
+.searchContainer{
+    height:363px;
+    overflow-y:auto;
+    width:30%;
+    border:1px solid black;
+    transition:width 0.4s ease;
+    scrollbar-width:none;
+}
+.searchContainer .sticky{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    background-color:black;
+    color:white;
+    padding-left:12px;
+    position:sticky;
+    top:0;
+}
+.searchContainer .twoDiv{
+    padding:20px;
+}
+@media (max-width:1200px)and (min-width:650px){
+    .searchContainer{
+        width:50%;
+    }
+}
+@media (max-width:650px){
+    .searchContainer{
+        width:60%;
+    }
+    .searchContainer .sticky{
+        display:flex;
+        flex-direction:column;
+    }
+}

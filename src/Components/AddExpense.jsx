@@ -3,7 +3,10 @@ import './AddExpense.css'
 function AddExpense({name, setName,amount,setAmount,category,setCategory, date,setDate,showExpense}){
     return(
         <div className="form">
+            <div>
             <h1>Add Expense</h1>
+            </div>
+            <div className="secondDiv">
             <form>
                 <label>Name </label>
                 <input type="text" value={name} onChange={(e)=>setName(e.target.value)} placeholder="Grocery.." /><br />
@@ -20,6 +23,7 @@ function AddExpense({name, setName,amount,setAmount,category,setCategory, date,s
                 <input type="date" value={date} onChange={(e)=>setDate(e.target.value)}/>
                 <button type="button" onClick={()=>{showExpense()}}>Add Expense</button>
             </form>
+            </div>
         </div>
     );
 }

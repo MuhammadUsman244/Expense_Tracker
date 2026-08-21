@@ -1,3 +1,29 @@
 .expenseContainer{
+    height:363px;
+    overflow-y:auto;
+    width:30%;
+    border:1px solid black;
+    transition:width 0.4s ease;
+    scrollbar-width:none;
+}
+.expenseContainer .firstDiv{
+    display:flex;
+    background-color:black;
+    padding-left:14px;
+    color:white;
+    position:sticky;
+    top:0;
+}
+.twoDiv{
     padding:20px;
+}
+@media (max-width:1200px) and (min-width:650px){
+    .expenseContainer{
+        width:50%;
+    }
+}
+@media (max-width:649px){
+    .expenseContainer{
+        width:60%;
+    }
 }
